@@ -129,7 +129,16 @@ Buatlah file baru dengan nama "style_eksternal.css" kemudian buatlah deklarasi C
 ```
 <br>
 
-Ini adalah hasil dari sintaks diatas :
-![Gambar 4](screenshot/ss4.PNG) <br>
+Kemudian tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat, seperti dibawah ini. <br>
+```
+    <head>
+        <!-- menyisipkan link -->
+        <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+    </head>
 
+``` 
+<br>
+
+Ini adalah hasil perubahan dari sintaks diatas :
+![Gambar 4](screenshot/ss4.PNG) <br>
 
