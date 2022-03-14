@@ -96,7 +96,7 @@ Ini adalah hasil dari sintaks diatas :
 ### 3. Menambahkan Inline CSS
 Inline CSS dengan menambahkan kode CSS pada tag HTML sebagai atribut dan value. <br>
 Penempatan CSS secara inline hanya akan mempengaruhi satu bagian baris kode. <br>
-Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.:
+Kemudian tambahkan deklarasi inline CSS pada tag `<p>` seperti berikut.:
 ```
     <p style="text-align: center; color: #ccd8e4;">
 ```
@@ -104,5 +104,32 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.:
 
 Ini adalah hasil dari sintaks diatas :
 ![Gambar 3](screenshot/ss3.PNG) <br>
+
+### 4. Membuat CSS Eksternal
+Penulisan Eksternal CSS menggunakan tag `<link>` menggunakan atribut href untuk merujuk 
+kepada file css yang diletakkan pada `<head>` dokumen. <br>
+Buatlah file baru dengan nama "style_eksternal.css" kemudian buatlah deklarasi CSS seperti berikut. <br>
+```
+    nav {
+    background: #f08080;
+    color: #fff;
+    padding: 10px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+    nav .active,
+    nav a:hover {
+        background: #800000;
+    }
+```
+<br>
+
+Ini adalah hasil dari sintaks diatas :
+![Gambar 4](screenshot/ss4.PNG) <br>
 
 
