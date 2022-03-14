@@ -129,7 +129,7 @@ Buatlah file baru dengan nama "style_eksternal.css" kemudian buatlah deklarasi C
 ```
 <br>
 
-Kemudian tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat, seperti dibawah ini : <br>
+Kemudian tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat seperti dibawah ini : <br>
 ```
     <head>
         <!-- menyisipkan link -->
@@ -152,7 +152,7 @@ Satu elemen HTML dapat diberikan lebih dari satu class. <br>
 Sedangkan ID Selector dideklarasikan dengan menambahkan tanda # sebelum nama id yang akan digunakan. <br>
 Kemudian pada tag HTML ditambahkan atribut id dengan value nama id tanpa menggunakan #. <br>
 Satu elemen HTML hanya dapat diberikan satu id. <br>
-Pada file style_eksternal.css, tambahkan kode berikut : <br>
+Pada file "style_eksternal.css", tambahkan kode berikut : <br>
 ```
     /* ID SELECTOR */
     #intro {
