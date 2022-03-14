@@ -47,3 +47,51 @@ Buatlah dokumen HTML seperti contoh dibawah ini :
 
 Ini adalah hasil dari sintaks diatas :
 ![Gambar 1](screenshot/ss1.PNG) <br>
+
+### 2. Mendeklarasikan CSS Internal
+Penulisan Internal CSS menggunakan tag `<style>` yang diletakkan pada `<head>` dokumen. <br>
+CSS selector berupa elemen selector berlaku pada semua elemen tersebut. <br>
+Elemen selector dideklarasikan berdasarkan tag HTML seperti :
+```
+body {color:blue;}
+p {font-family:"sans-serif"}
+h1 {text-align:center;color:red';}
+```
+<br>
+
+Selanjutnya tambahkan deklarasi CSS Internal pada bagian head seperti contoh dibawah ini :
+```
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Dasar</title>
+    <!-- menyisipkan link -->
+    <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+    <style>
+        body {
+            font-family:'Open Sans', sans-serif;
+        }
+        header {
+            min-height: 80px;
+            border-bottom: 1px solid #77CCEF;
+        }
+        h1 {
+            font-size: 24px;
+            color: #800000;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 i {
+            color: #6d6a6b;
+        }
+    </style>
+    </head>
+```
+<br>
+
+
+Ini adalah hasil dari sintaks diatas :
+![Gambar 2](screenshot/ss2.PNG) <br>
+
+
