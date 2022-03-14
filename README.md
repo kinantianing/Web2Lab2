@@ -129,7 +129,7 @@ Buatlah file baru dengan nama "style_eksternal.css" kemudian buatlah deklarasi C
 ```
 <br>
 
-Kemudian tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat, seperti dibawah ini. <br>
+Kemudian tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat, seperti dibawah ini : <br>
 ```
     <head>
         <!-- menyisipkan link -->
@@ -141,4 +141,49 @@ Kemudian tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang
 
 Ini adalah hasil perubahan dari sintaks diatas :
 ![Gambar 4](screenshot/ss4.PNG) <br>
+
+### 5. Menambahkan CSS Selector
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. <br>
+Class Selector dideklarasikan dengan menambahkan tanda titik (.) sebelum nama class yang akan 
+digunakan.<br>
+Kemudian pada tag HTML ditambahkan atribut class dengan value nama class tanpa 
+menggunakan titik (.). <br>
+Satu elemen HTML dapat diberikan lebih dari satu class. <br>
+Sedangkan ID Selector dideklarasikan dengan menambahkan tanda # sebelum nama id yang akan digunakan. <br>
+Kemudian pada tag HTML ditambahkan atribut id dengan value nama id tanpa menggunakan #. <br>
+Satu elemen HTML hanya dapat diberikan satu id. <br>
+Pada file style_eksternal.css, tambahkan kode berikut : <br>
+```
+    /* ID SELECTOR */
+    #intro {
+        background: #cd5c5c;
+        border: 1px solid #800000;
+        min-height: 100px;
+        padding: 10px;
+    }
+
+    #intro h1 {
+        text-align: left;
+        border: 0;
+        color: #800000;
+    }
+
+    /* CLASS SELECTOR */
+    .button {
+        padding: 15px 20px;
+        background: #bebcbd;
+        color: #fff;
+        display: inline-block;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .btn-primary {
+        background: #282828;
+    }
+```
+<br>
+
+Ini adalah hasil refresh dari sintaks diatas :
+![Gambar 5](screenshot/ss5.PNG) <br>
 
