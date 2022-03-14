@@ -43,3 +43,7 @@ Buatlah dokumen HTML seperti contoh dibawah ini :
     </body>
     </html>
 ```
+<br>
+
+Ini adalah hasil dari sintaks diatas :
+![Gambar 1](screenshot/ss1.PNG) <br>
