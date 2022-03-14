@@ -90,8 +90,19 @@ Selanjutnya tambahkan deklarasi CSS Internal pada bagian head seperti contoh dib
 ```
 <br>
 
-
 Ini adalah hasil dari sintaks diatas :
 ![Gambar 2](screenshot/ss2.PNG) <br>
+
+### 3. Menambahkan Inline CSS
+Inline CSS dengan menambahkan kode CSS pada tag HTML sebagai atribut dan value. <br>
+Penempatan CSS secara inline hanya akan mempengaruhi satu bagian baris kode. <br>
+Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.:
+```
+    <p style="text-align: center; color: #ccd8e4;">
+```
+<br>
+
+Ini adalah hasil dari sintaks diatas :
+![Gambar 3](screenshot/ss3.PNG) <br>
 
 
