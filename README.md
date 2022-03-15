@@ -202,10 +202,7 @@ penjelasannya! <br>
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada 
 elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan 
 penjelasan dan contohnya! <br>
-    Jawab : Pertama tambahkan CSS internal `h2  { color: #ff8c00; text-align: right; }` pada tag `<style>` untuk tag `<h2> CSS Internal, Inline CSS, dan CSS Eksternal </h2>`. <br>
-    Lalu tambahkan inline CSS pada tag <h2> seperti, `<h2 style="text-align:center; color: #20b2aa"> CSS Internal, Inline CSS, dan CSS Eksternal </h2>`. <br>
-    Kemudian buat file css baru terlebih dahulu, lalu isi dengan CSS eksternal seperti, `h2 {color: #663399; text-align: left; }`. <br>
-    Lalu tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat seperti dibawah ini : <br>
+    Jawab : Pertama tambahkan CSS internal `h2  { color: #ff8c00; text-align: right; }` pada tag `<style>` untuk tag `<h2> CSS Internal, Inline CSS, dan CSS Eksternal </h2>`. <br> Lalu tambahkan inline CSS pada tag <h2> seperti, `<h2 style="text-align:center; color: #20b2aa"> CSS Internal, Inline CSS, dan CSS Eksternal </h2>`. <br> Kemudian buat file css baru terlebih dahulu, lalu isi dengan CSS eksternal seperti, `h2 {color: #663399; text-align: left; }`. <br> Lalu tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat seperti dibawah ini : <br>
 ```
     <head>
         <!-- menyisipkan link -->
