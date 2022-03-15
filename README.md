@@ -206,7 +206,7 @@ penjelasan dan contohnya! <br>
     Lalu tambahkan inline CSS pada tag `<h2>` seperti, `<h2 style="text-align:center; color: #20b2aa"> CSS Internal, Inline CSS, dan CSS Eksternal </h2>`. <br>
     Kemudian buat file css baru terlebih dahulu, lalu isi dengan CSS eksternal seperti, `h2 {color: #663399; text-align: left; }`. <br>
     Lalu tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat seperti, `<link rel="stylesheet" href="css_eksternal.css" type="text/css">`.  
-    maka hasil sintaks keseluruhannya akan menjadi seperti :
+    maka hasil sintaks keseluruhannya pada file html akan menjadi seperti :
 ```
     <!DOCTYPE html>
     <html lang="en">
@@ -216,7 +216,7 @@ penjelasan dan contohnya! <br>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSS Dasar</title>
         <!-- menyisipkan link -->
-        <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+        <link rel="stylesheet" href="css_eksternal.css" type="text/css">
         <style>
             body {
                 font-family:'Open Sans', sans-serif;
@@ -245,13 +245,32 @@ penjelasan dan contohnya! <br>
     </html>
 ```
 <br>
-Setelah dilihat dari hasil nya deklarasi yang dijalankan adalah inline CSS, berikut merupakan hasilnya :    
-![Gambar soal3](screenshot/soal3.PNG) <br>    
 
+    Setelah dilihat dari hasil nya deklarasi yang dijalankan adalah inline CSS, berikut merupakan hasilnya :    
+![Gambar soal3](screenshot/soal3.PNG) <br> 
 
 
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut 
 terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? 
 Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )` <br>
-    Jawab : <br>
+    Jawab : Buat file HTML bebas,lalu tambahkan `( <p id="paragraf-1" class="text-paragraf"> )` contohnya seperti dibawah ini : <br>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Dasar</title>
+</head>
+<body>
+    <p class="text-paragraf" id="paragraf-1">Ini adalah paragraf dengan CSS Internal, CSS eksternal, dan Inline CSS</p>
+</body>
+</html>
+```
+
+    Setelah program di run, dapat dilihat deklarasi yang dijalankan yaitu deklarasi ID selector, berikut merupakan hasil outputnya :
+![Gambar soal4](screenshot/soal4.PNG) <br> 
+
 
