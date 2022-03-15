@@ -202,40 +202,19 @@ penjelasannya! <br>
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada 
 elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan 
 penjelasan dan contohnya! <br>
-    Jawab : 
-> Pertama buat deklarasi CSS internal pada dokumen html. Sintaks seperti dibawah ini. <br>⋅⋅
+    Jawab : Pertama tambahkan CSS internal `h2  { color: #ff8c00; text-align: right; }` pada tag `<style>` untuk tag `<h2> CSS Internal, Inline CSS, dan CSS Eksternal </h2>`. <br>
+    Lalu tambahkan inline CSS pada tag <h2> seperti, `<h2 style="text-align:center; color: #20b2aa"> CSS Internal, Inline CSS, dan CSS Eksternal </h2>`. <br>
+    Kemudian buat file css baru terlebih dahulu, lalu isi dengan CSS eksternal seperti, `h2 {color: #663399; text-align: left; }`. <br>
+    Lalu tambahkan tag `<link>` pada bagian `<head>` untuk merujuk file CSS yang telah dibuat seperti dibawah ini : <br>
 ```
-                    <!DOCTYPE html>
-                    <html lang="en">
-                    <head>
-                        <meta charset="UTF-8">
-                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>CSS Dasar</title>
-                        <!-- menyisipkan link -->
-                        <link rel="stylesheet" href="style_eksternal.css" type="text/css">
-                        <style>
-                            body {
-                                font-family:'Open Sans', sans-serif;
-                            }
-                            header {
-                                min-height: 80px;
-                                border-bottom: 1px solid #cd5c5c;
-                            }
-                            h2  {
-                                color: #ff8c00; 
-                                text-align: right;
-                            }
-                        </style>
-                    </head>
-                    <body>
-                        <header>
-                            <h2>CSS Internal, Inline CSS, dan CSS Eksternal</h2>
-                        </header>
-                    </body>
-                    </html>
-```
-⋅⋅⋅tag `<h2>`      
+    <head>
+        <!-- menyisipkan link -->
+        <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+    </head>
+
+``` 
+<br>
+
 
 
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut 
