@@ -246,7 +246,7 @@ penjelasan dan contohnya! <br>
 ```
 <br>
 
-    Setelah dilihat dari hasil nya deklarasi yang dijalankan adalah inline CSS, berikut merupakan hasilnya :    
+Setelah dilihat dari hasil nya deklarasi yang dijalankan adalah inline CSS, berikut merupakan hasilnya :    
 ![Gambar soal3](screenshot/soal3.PNG) <br> 
 
 
