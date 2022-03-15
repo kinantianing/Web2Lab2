@@ -197,7 +197,7 @@ dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul
 
 2. Apa perbedaan pendeklarasian CSS elemen `h1 {...}` dengan `#intro h1 {...}` ? berikan 
 penjelasannya! <br>
-    Jawab : Pendeklarasian CSS elemen `h1 {...}` merupakan salah satu dari CSS internal, elemen ini berlaku untuk seluruh tag html `<h1>`, sedangkan ``#intro h1 {...}` berlaku untuk semua tag html `<h1>` yang hanya terdapat pada tag yang memiliki id intro. <br>
+    Jawab : Pendeklarasian CSS elemen `h1 {...}` merupakan salah satu dari CSS internal, elemen ini berlaku untuk seluruh tag html `<h1>`, sedangkan `#intro h1 {...}` berlaku untuk semua tag html `<h1>` yang hanya terdapat pada tag yang memiliki id intro. <br>
 
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada 
 elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan 
