@@ -197,12 +197,45 @@ dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul
 
 2. Apa perbedaan pendeklarasian CSS elemen `h1 {...}` dengan `#intro h1 {...}` ? berikan 
 penjelasannya! <br>
-    Jawab : Pendeklarasian CSS elemen `h1 {...}` merupakan salah satu dari CSS internal, elemen ini berlaku untuk seluruh tag html `<h1>`, sedangkan `#intro h1 {...}` berlaku untuk semua tag html `<h1>` yang hanya terdapat pada tag yang memiliki id intro. <br>
+    Jawab : Pendeklarasian CSS elemen `h1 {...}` merupakan salah satu dari CSS internal, elemen ini berlaku untuk seluruh tag html `<h1>`, sedangkan `#intro h1 {...}` merupakan bentuk dari ID selector, elemen ini berlaku untuk semua tag html `<h1>` yang hanya terdapat pada tag yang memiliki id intro. <br>
 
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada 
 elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan 
 penjelasan dan contohnya! <br>
-    Jawab : <br>
+    Jawab : 1. Pertama buat deklarasi CSS internal pada dokumen html. Sintaks seperti dibawah ini. <br>
+                ```
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>CSS Dasar</title>
+                        <!-- menyisipkan link -->
+                        <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+                        <style>
+                            body {
+                                font-family:'Open Sans', sans-serif;
+                            }
+                            header {
+                                min-height: 80px;
+                                border-bottom: 1px solid #cd5c5c;
+                            }
+                            h2  {
+                                color: #ff8c00; 
+                                text-align: right;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <header>
+                            <h2>CSS Internal, Inline CSS, dan CSS Eksternal</h2>
+                        </header>
+                    </body>
+                    </html>
+                ```
+                
+
 
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut 
 terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? 
