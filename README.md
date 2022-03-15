@@ -309,7 +309,7 @@ nav a:hover {
 ```
 <br>
 
-Ini adalah output dari sintaks diatas :
+Ini adalah output dari sintaks diatas : <br>
 ![Gambar soal1](screenshot/soal1.PNG) <br> 
 
 
