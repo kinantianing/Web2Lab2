@@ -203,7 +203,7 @@ penjelasannya! <br>
 elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan 
 penjelasan dan contohnya! <br>
     Jawab : 
-1. Pertama buat deklarasi CSS internal pada dokumen html. Sintaks seperti dibawah ini. <br>
+    ⋅⋅⋅1. Pertama buat deklarasi CSS internal pada dokumen html. Sintaks seperti dibawah ini. <br>⋅⋅
 ```
                     <!DOCTYPE html>
                     <html lang="en">
@@ -235,7 +235,7 @@ penjelasan dan contohnya! <br>
                     </body>
                     </html>
 ```
-tag `<h2>`      
+⋅⋅⋅tag `<h2>`      
 
 
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut 
