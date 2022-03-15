@@ -193,7 +193,125 @@ Ini adalah hasil refresh dari sintaks diatas :
 
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS 
 dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini. <br>
-    Jawab : <br>
+    Jawab : Berikut adalah sintaks html nya : <br>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Dasar</title>
+    <!-- menyisipkan link -->
+    <link rel="stylesheet" href="css_eksternal.css" type="text/css">
+    <style>
+        body {
+            font-family:'Open Sans', sans-serif;
+            background-color: #f5deb3;
+        }
+        header {
+            min-height: 80px;
+            border-bottom: 1px solid #cd5c5c;
+        }
+        h1 {
+            font-size: 24px;
+            color: #800000;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 i {
+            color: #6d6a6b; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS Internal dan <i>Inline CSS</i></h1>
+    </header>
+    <nav>
+        <a href="lab2_css_dasar.html">CSS DASAR</a>
+        <a href="lab2_css_eksternal.html">CSS EKSTERNAL</a>
+        <a href="lab1_tag_dasar.html">HTML DASAR</a>
+    </nav>
+
+    <!-- CSS ID SELECTOR -->
+    <div id="intro">
+        <h1>Hello World</h1>
+        <p style="text-align:justify; color:#ccd8e4;"> Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman 
+            Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat 
+            adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML 
+            dan CSS.</p>
+
+        <p id="paragraf-2">Paragraf ini dibuat menggunakan deklarasi ID selector, untuk mengisi warna text dan posisi text.</p>
+
+        <!-- CSS CLASS SELECTOR -->
+        <a href="#intro" class="button btn-primary">Informasi Selengkapnya.</a>
+
+    </div>
+</body>
+</html>
+```
+<br>
+
+Lalu ini adalah sintaks dari file CSS : <br>
+```
+nav {
+    background: #f08080;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #800000;
+}
+
+nav a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav .active,
+nav a:hover {
+    background: #800000;
+}
+
+/* ID SELECTOR */
+#intro {
+    background: #cd5c5c;
+    border: 1px solid #800000;
+    min-height: 100px;
+    padding: 10px;
+}
+
+#paragraf-2 {
+    color: #000;
+    text-align: right;
+}
+
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #800000;
+}
+
+/* CLASS SELECTOR */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #282828;
+}
+```
+<br>
+
+Ini adalah output dari sintaks diatas :
+![Gambar soal1](screenshot/soal1.PNG) <br> 
+
 
 2. Apa perbedaan pendeklarasian CSS elemen `h1 {...}` dengan `#intro h1 {...}` ? berikan 
 penjelasannya! <br>
@@ -246,7 +364,7 @@ penjelasan dan contohnya! <br>
 ```
 <br>
 
-Setelah dilihat dari hasil nya deklarasi yang dijalankan adalah inline CSS, berikut merupakan hasilnya :    
+Setelah dilihat dari hasil nya deklarasi yang dijalankan adalah inline CSS, berikut merupakan hasilnya : <br>
 ![Gambar soal3](screenshot/soal3.PNG) <br> 
 
 
@@ -289,7 +407,7 @@ Lalu buat file css "css_eksternal.css" dan isi dengan sintaks dibawah ini untuk 
 ```
 
 Setelah program di run, dapat dilihat deklarasi yang dijalankan yaitu deklarasi ID selector <br>
-Berikut merupakan hasil outputnya : 
+Berikut merupakan hasil outputnya : <br>
 ![Gambar soal4](screenshot/soal4.PNG) <br> 
 
 
