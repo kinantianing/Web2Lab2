@@ -271,7 +271,7 @@ Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )
 ```
 <br>
 
-    Setelah program di run, dapat dilihat deklarasi yang dijalankan yaitu deklarasi ID selector, berikut merupakan hasil outputnya : 
+Setelah program di run, dapat dilihat deklarasi yang dijalankan yaitu deklarasi ID selector, berikut merupakan hasil outputnya : 
 ![Gambar soal4](screenshot/soal4.PNG) <br> 
 
 
