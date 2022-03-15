@@ -256,20 +256,37 @@ Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )
     Jawab : Buat file HTML bebas,lalu tambahkan `( <p id="paragraf-1" class="text-paragraf"> )` contohnya seperti dibawah ini : <br>
 
 ```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Dasar</title>
-</head>
-<body>
-    <p class="text-paragraf" id="paragraf-1">Ini adalah paragraf dengan CSS Internal, CSS eksternal, dan Inline CSS</p>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Dasar</title>
+        link rel="stylesheet" href="css_eksternal.css" type="text/css">
+    </head>
+    <body>
+        <p class="text-paragraf" id="paragraf-1">Ini adalah paragraf dengan CSS Internal, CSS eksternal, dan Inline CSS</p>
+    </body>
+    </html>
 ```
 <br>
+
+Lalu buat file css "css_eksternal.css" dan isi dengan sintaks dibawah ini untuk mendeklarasikan ID dan Class selector. <br>
+```
+    /* ID SELECTOR */
+
+    #paragraf-1 {
+        color: #663399;
+        text-align: center;
+    }
+
+    /* CLASS SELECTOR */
+    .text-paragraf {
+        color: #800000;
+        text-align: Left;
+    }
+```
 
 Setelah program di run, dapat dilihat deklarasi yang dijalankan yaitu deklarasi ID selector <br>
 Berikut merupakan hasil outputnya : 
